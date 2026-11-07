@@ -87,14 +87,8 @@ protected override void OnStateChange()
     }
     else if (State == State.DataLoaded)
     {
-        // Instanciación del indicador
-        rsiIndicator = new RE_RSI
-        {
-            Period = 14
-        };
-
-        // Registrar para que el motor de NinjaTrader procese sus series
-        AddChartIndicator(rsiIndicator);
+        // Instanciación nativa mediante CacheIndicator de NinjaScript
+        rsiIndicator = RE_RSI(14);
     }
 }
 ```
