@@ -6,7 +6,7 @@ Esta guía documenta el proceso paso a paso para instalar la colección de indic
 
 ## 1. Contenido del Paquete
 
-La suite de indicadores está optimizada para trading algorítmico y replica con exactitud matemática (tolerancia $< 10^{-10}$) los cálculos de Python (`polars`/`numpy`) y MQL5:
+La suite de indicadores está optimizada para trading algorítmico y replica con exactitud matemática (tolerancia $< 10^{-10}$) los cálculos de Python y MQL5:
 
 | Indicador | Descripción |
 | :--- | :--- |
